@@ -1,0 +1,44 @@
+@use "header";
+@use "wrappers";
+@use "button";
+@use "anchor";
+@use "variables";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    padding: 20px 0 5px 0;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+main {
+    padding: 10px 0 0 0;
+}
+
+body {
+  @include variables.purplebackground;  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: variables.$white;
+  text-align: center;
+}
+
+pre {
+    width: 460px;
+    margin: 1em 0px;
+    overflow: auto;
+    text-shadow: none;
+    background: variables.$graybackground;
+    border: solid 1px variables.$grayborder;
+    border-radius: 5px;
+}

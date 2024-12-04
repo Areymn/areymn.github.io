@@ -1,0 +1,93 @@
+header, main {
+  text-align: left;
+}
+
+header {
+  background: linear-gradient(to right, slateblue, #9e8dff);
+}
+header ol, header ul {
+  list-style-position: inside;
+}
+
+.wrapper {
+  position: relative;
+  width: 75%;
+  margin: auto;
+}
+
+.wrapper2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second {
+  margin-left: 40px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 15px 30px 15px 30px;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  color: #6a5acd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease;
+}
+
+a {
+  text-decoration: none;
+  color: #521252;
+}
+a:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  color: red;
+}
+a:active {
+  color: purple;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  padding: 20px 0 5px 0;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+main {
+  padding: 10px 0 0 0;
+}
+
+body {
+  background: linear-gradient(to right, slateblue, #9e8dff);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+pre {
+  width: 460px;
+  margin: 1em 0px;
+  overflow: auto;
+  text-shadow: none;
+  background: #1d1d1d;
+  border: solid 1px #383838;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

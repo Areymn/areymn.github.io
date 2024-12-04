@@ -1,0 +1,11 @@
+$white: white;
+$blurple: #170069;
+$lightpurple: #9e8dff;
+$winelink: #521252;
+$grayborder: #383838;
+$graybackground: #1d1d1d;
+$slateblue: #6a5acd;
+
+@mixin purplebackground {
+    background: linear-gradient(to right, slateblue, $lightpurple);
+}
