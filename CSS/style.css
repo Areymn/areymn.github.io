@@ -3,7 +3,7 @@ header, main {
 }
 
 header {
-  background: linear-gradient(to right, slateblue, #9e8dff);
+  background: linear-gradient(to right, #6a5acd, #9e8dff);
 }
 header ol, header ul {
   list-style-position: inside;
@@ -74,7 +74,7 @@ main {
 }
 
 body {
-  background: linear-gradient(to right, slateblue, #9e8dff);
+  background: linear-gradient(to right, #6a5acd, #9e8dff);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: white;
   text-align: center;
